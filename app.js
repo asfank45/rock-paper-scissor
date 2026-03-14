@@ -67,7 +67,8 @@ const playGame=(userChoice)=>{
         else{
         const msg=document.getElementById("msg");
         msg.innerText="Computer Winn!";
-      document.querySelector(".msgContainer").style.backgroundColor="red";        comScore++;
+      document.querySelector(".msgContainer").style.backgroundColor="red";       
+        comScore++;
         comUpdate(comScore);
         };
 
